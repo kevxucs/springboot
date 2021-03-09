@@ -1,0 +1,12 @@
+person:
+  lastName: Tom
+  age: 18
+  boss: false
+  birth: 2017/12/12
+  maps: { k1: v1, k2: v2 }
+  lists:
+    - cat
+    - dog
+  dog:
+    name: Jack
+    age: 2

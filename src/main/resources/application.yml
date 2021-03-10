@@ -1,7 +1,7 @@
 person:
-  lastName: Tom
+  name: Tom
   age: 18
-  boss: false
+  sex: false
   birth: 2017/12/12
   maps: { k1: v1, k2: v2 }
   lists:
@@ -10,3 +10,32 @@ person:
   dog:
     name: Jack
     age: 2
+
+company:
+  name: MTO
+  employee:
+    - name: Tom
+      age: 18
+      sex: false
+      birth: 2017/12/12
+      maps: { k1: v1, k2: v2 }
+      lists:
+        - cat
+        - dog
+      dog:
+        name: Jack
+        age: 2
+    - name: Mike
+      age: 28
+      sex: false
+      birth: 2010/12/12
+      maps: { k1: v1, k2: v2 }
+      lists:
+        - cat
+        - dog
+      dog:
+        name: Lee
+        age: 3
+
+com.demo.type: Spring boot
+company-name: MTO 

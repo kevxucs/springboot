@@ -7,6 +7,8 @@ import com.example.demo.bean.ReadConfig;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
@@ -57,4 +59,14 @@ public class DemoApplicationTests {
         System.out.println(this.context.containsBean("dog"));
     }
 
+    Logger logger = LoggerFactory.getLogger(getClass());
+
+    @Test
+    public void testLogger() {
+        logger.trace("trace");
+        logger.debug("trace");
+        logger.info("trace");
+        logger.warn("trace");
+        logger.error("trace");
+    }
 }

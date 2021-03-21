@@ -19,7 +19,7 @@ public class Person1 {
     @Value("true")
     private Boolean sex;
 
-    @Value("${person.birth}")
+    //@Value("${person.birth}")
     private Date birth;
 
     @Override

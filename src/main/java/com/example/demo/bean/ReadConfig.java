@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 public class ReadConfig {
     private String appname;
     private String type;
-    @Value("${auth}")
+    //@Value("${auth}")
     private String auth;
-    @Value(value = "${company-name}")
+    //@Value(value = "${company-name}")
     private String company;
 
     public String getAppname() {
